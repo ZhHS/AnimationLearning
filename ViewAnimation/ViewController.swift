@@ -34,7 +34,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func gotoChapterFour() {
-        
+        let chapterFourVC = ChapterFourViewController()
+        chapterFourVC.navigationItem.title = "Chapter Four"
+        navigationController?.pushViewController(chapterFourVC, animated: true)
     }
 }
 
