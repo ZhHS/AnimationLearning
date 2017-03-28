@@ -41,10 +41,6 @@ class ChapterOneViewController: UIViewController {
         super.viewWillAppear(animated)
         
         print(#function)
-        
-//        usernameTF.frame.origin.x -= ScreenWidth
-//        passwordTF.frame.origin.x -= ScreenWidth
-//        loginBtn.frame.origin.x -= ScreenWidth
     }
     
     override func viewDidAppear(_ animated: Bool) {
